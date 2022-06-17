@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="first-index">
+                
+                <input type="text" id="name-input" placeholder="Tên">
+                <input type="text" id="phonenumber-input" placeholder="Điện thoại">
+                <button class="btn" id="add-btn">THÊM</button>
+            </div>
+            <div class="second-index">
+                <input type="text" id="search-input" placeholder="Tìm kiếm">
+                <button class="btn" id="search-btn" onclick="Search()">TÌM</button>
+                <button class="btn" id="delete-btn" onclick="DeleteDuplicate()">XÓA TRÙNG</button>
+            </div>
+            <div id="contacts-list">
+                <div class="contact-entry">
+                    <div class="full-name">Alice</div>
+                    <div class="phone-number">(816)-403-5456</div>
+                </div>
+                <div class="contact-entry">
+                    <div class="full-name">Bob</div>
+                    <div class="phone-number">(572)-566-2397</div>
+                </div>
+                <div class="contact-entry">
+                    <div class="full-name">Cris</div>
+                    <div class="phone-number">(864)-309-4841</div>
+                </div>
+                <div class="contact-entry">
+                    <div class="full-name">Daniel</div>
+                    <div class="phone-number">(816)-403-5456</div>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+    <script src="bai4.js"></script>
+</body>
+</html>
